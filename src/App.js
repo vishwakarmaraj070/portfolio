@@ -12,7 +12,6 @@ function App() {
         <Route path="/" exact component={MainContent} />
         <Footer />
       </Router>
-      App
     </React.Fragment>
   );
 }
