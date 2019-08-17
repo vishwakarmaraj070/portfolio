@@ -11,3 +11,23 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+
+#slide-line{
+  width: 61.9063px;
+  left: 1283.34px;
+}
+
+li svg:nth-child(2) {
+  display: none;
+}
+
+.flickity-viewport{
+  height: 264px;
+  touch-action: pan-y;
+}
+
+.flickity-slider{
+  left: 0px;
+  transform: translateX(20%);
+}
