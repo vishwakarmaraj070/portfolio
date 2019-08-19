@@ -4,7 +4,7 @@ export default class Footer extends Component {
     render() {
         return (
             <React.Fragment>
-                	<section className="section-cta py-5 bg-primary text-white">
+               	<section className="section-cta py-5 bg-primary text-white">
 		<div className="container">
 			<div className="text-center">
 				<img className="profile-small d-inline-block mx-auto rounded-circle mb-2"
@@ -29,7 +29,7 @@ export default class Footer extends Component {
 		</div>
 	</section>
 
-	<footer className="footer text-light text-center py-2">
+	<footer className="footer text-light text-center py-2 theme-bg-primary-darken">
 		<small className="copyright">Template Copyright ©
 			<a className="text-light" href="https://themes.3rdwavemedia.com/" target="_blank">3rd Wave Media</a></small>
 	</footer>

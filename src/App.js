@@ -1,15 +1,18 @@
 import React from 'react';
 import {BrowserRouter as Router, Route} from 'react-router-dom'
-import Header from './components/Header';
-import Footer from './components/Footer';
-import MainContent from './components/MainContent';
+import Header from './Component/Header'
+import Footer from './Component/Footer'
+import About from './Component/About'
+
 
 function App() {
   return (
     <React.Fragment>
       <Router>
-        <Header />
-        <Route path="/" exact component={MainContent} />
+        <Header /> 
+        <div className="">
+          <Route path="/" exact component={About} />
+        </div>
         <Footer />
       </Router>
     </React.Fragment>
