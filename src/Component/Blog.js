@@ -5,6 +5,7 @@ export default class Blog extends Component {
         return (
             <React.Fragment>
 <section className="text-center my-5">
+    <div className="container">
 <h3 className="section-title font-weight-bold text-center mb-3">
 Latest Blog Posts
             </h3>
@@ -349,7 +350,7 @@ Latest Blog Posts
       </div>
     </div>
   </div>
-
+  </div>
 </section>
             </React.Fragment>
         )
