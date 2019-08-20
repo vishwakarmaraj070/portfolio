@@ -449,3 +449,33 @@ svg:not(:root).svg-inline--fa {
   position: static;
   width: auto;
 }
+
+div#carouselExampleControls .carousel-indicators {
+  white-space: nowrap;
+  overflow-x: auto;
+  position: static;
+  left: initial;
+  width: initial;
+  margin-left: initial;
+  margin-right: initial;
+}
+
+
+div#carouselExampleControls .carousel-indicators>li {
+    width: initial;
+    height: initial;
+    text-indent: initial;
+}
+
+/*  */
+
+.filter .filter-gallery {
+  position: relative;
+}
+.filter .item {
+  display: block;
+  position: absolute;
+  width: max-content;
+  margin: 5px;
+  z-index: 1;
+}

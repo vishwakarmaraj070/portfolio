@@ -16,5 +16,9 @@ $(document).ready(function () {
             slideLine()
         }
     );
+
+    $('#mdb-lightbox-ui').load('../mdb-addons/mdb-lightbox-ui.html');
+// Filter init
+$('.filter-lightbox').mdbFilter();
    
 });

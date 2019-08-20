@@ -48,31 +48,31 @@ export default class Header extends Component {
             <div className="collapse navbar-collapse text-uppercase" id="navigation">
 						<ul className="navbar-nav ml-lg-auto">
 							<li className="nav-item active mr-lg-3">
-							    <a className="nav-link" href="index.html">About <span className="sr-only">(current)</span></a>
+							    <a className="nav-link" href="/">About</a>
 							</li>
 							<li className="nav-item mr-lg-3">
-							   <a className="nav-link" href="projects.html">Projects</a>
+							   <a className="nav-link" href="/project">Projects</a>
 							</li>
 							<li className="nav-item mr-lg-3">
-							    <a className="nav-link" href="talks.html">Talks</a>
+							    <a className="nav-link" href="/talks">Talks</a>
 							</li>
 							<li className="nav-item mr-lg-3">
-							    <a className="nav-link" href="blog.html">Blog</a>
+							    <a className="nav-link" href="/blog">Blog</a>
 							</li>
 							<li className="nav-item mr-lg-3">
-							    <a className="nav-link" href="resume.html">Resume</a>
+							    <a className="nav-link" href="/resume">Resume</a>
 							</li>
 							<li className="nav-item mr-lg-3">
-							    <a className="nav-link" href="contact.html">Contact</a>
+							    <a className="nav-link" href="/contact">Contact</a>
 							</li>
 							<li className="nav-item dropdown mr-0">
 							    <a className="nav-link dropdown-toggle" href="#" id="navigationLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 							Pages
 								</a>
 								<div className="dropdown-menu dropdown-menu-right text-capitalize shadow-lg" aria-labelledby="navigationLink">
-									<a className="dropdown-item" href="project.html">Project Case Study (1 Column)</a>
-									<a className="dropdown-item" href="project-alt.html">Project Case Study (2 Columns)</a>
-									<a className="dropdown-item" href="blog-post.html">Blog Post</a>
+									<a className="dropdown-item" href="#">Project Case Study (1 Column)</a>
+									<a className="dropdown-item" href="#">Project Case Study (2 Columns)</a>
+									<a className="dropdown-item" href="#">Blog Post</a>
 								</div>
 							</li>
 							

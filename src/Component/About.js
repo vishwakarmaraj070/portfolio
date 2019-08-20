@@ -18,7 +18,7 @@ export default class About extends Component {
                 <Project />
 
                 {/* featured in */}
-                ]<section className="bg-primary py-5 section-press white-text">
+                <section className="bg-primary py-5 section-press white-text">
 		<div className="container">
 			<h3 className="section-title font-weight-bold text-center mb-5">
 				Featured in
