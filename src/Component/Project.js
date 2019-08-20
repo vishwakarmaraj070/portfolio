@@ -11,55 +11,55 @@ export default class Project extends Component {
             </h3>
             {/* <div
               id="carousel-thumb"
-              class="carousel slide carousel-fade carousel-thumbnails"
+              className="carousel slide carousel-fade carousel-thumbnails"
               data-ride="carousel"
             >
-              <div class="carousel-inner" role="listbox">
-                <div class="carousel-item active">
+              <div className="carousel-inner" role="listbox">
+                <div className="carousel-item active">
                   <img
-                    class="d-block w-100"
+                    className="d-block w-100"
                     src="https://mdbootstrap.com/img/Photos/Slides/img%20(88).jpg"
                     alt="First slide"
                   />
                 </div>
-                <div class="carousel-item">
+                <div className="carousel-item">
                   <img
-                    class="d-block w-100"
+                    className="d-block w-100"
                     src="https://mdbootstrap.com/img/Photos/Slides/img%20(121).jpg"
                     alt="Second slide"
                   />
                 </div>
-                <div class="carousel-item">
+                <div className="carousel-item">
                   <img
-                    class="d-block w-100"
+                    className="d-block w-100"
                     src="https://mdbootstrap.com/img/Photos/Slides/img%20(31).jpg"
                     alt="Third slide"
                   />
                 </div>
               </div>
               <a
-                class="carousel-control-prev"
+                className="carousel-control-prev"
                 href="#carousel-thumb"
                 role="button"
                 data-slide="prev"
               >
-                <span class="carousel-control-prev-icon" aria-hidden="true" />
-                <span class="sr-only">Previous</span>
+                <span className="carousel-control-prev-icon" aria-hidden="true" />
+                <span className="sr-only">Previous</span>
               </a>
               <a
-                class="carousel-control-next"
+                className="carousel-control-next"
                 href="#carousel-thumb"
                 role="button"
                 data-slide="next"
               >
-                <span class="carousel-control-next-icon" aria-hidden="true" />
-                <span class="sr-only">Next</span>
+                <span className="carousel-control-next-icon" aria-hidden="true" />
+                <span className="sr-only">Next</span>
               </a>
-              <ol class="carousel-indicators">
+              <ol className="carousel-indicators">
                 <li
                   data-target="#carousel-thumb"
                   data-slide-to="0"
-                  class="active"
+                  className="active"
                 >
                   <img
                     src="https://mdbootstrap.com/img/Photos/Others/Carousel-thumbs/img%20(88).jpg"
@@ -82,55 +82,55 @@ export default class Project extends Component {
 			</div> */}
             <div
               id="carouselExampleControls"
-              class="carousel slide"
+              className="carousel slide"
               data-ride="carousel"
             >
-              <div class="carousel-inner">
-                <div class="carousel-item active">
+              <div className="carousel-inner">
+                <div className="carousel-item active">
                   <img
-                    class="d-block w-100"
+                    className="d-block w-100"
                     src="https://mdbootstrap.com/img/Photos/Slides/img%20(45).jpg"
                     alt="First slide"
                   />
                 </div>
-                <div class="carousel-item">
+                <div className="carousel-item">
                   <img
-                    class="d-block w-100"
+                    className="d-block w-100"
                     src="https://mdbootstrap.com/img/Photos/Slides/img%20(46).jpg"
                     alt="Second slide"
                   />
                 </div>
-                <div class="carousel-item">
+                <div className="carousel-item">
                   <img
-                    class="d-block w-100"
+                    className="d-block w-100"
                     src="https://mdbootstrap.com/img/Photos/Slides/img%20(47).jpg"
                     alt="Third slide"
                   />
                 </div>
               </div>
               <a
-                class="carousel-control-prev"
+                className="carousel-control-prev"
                 href="#carouselExampleControls"
                 role="button"
                 data-slide="prev"
               >
-                <span class="carousel-control-prev-icon" aria-hidden="true" />
-                <span class="sr-only">Previous</span>
+                <span className="carousel-control-prev-icon" aria-hidden="true" />
+                <span className="sr-only">Previous</span>
               </a>
               <a
-                class="carousel-control-next"
+                className="carousel-control-next"
                 href="#carouselExampleControls"
                 role="button"
                 data-slide="next"
               >
-                <span class="carousel-control-next-icon" aria-hidden="true" />
-                <span class="sr-only">Next</span>
+                <span className="carousel-control-next-icon" aria-hidden="true" />
+                <span className="sr-only">Next</span>
               </a>
-              <ol class="carousel-indicators">
+              <ol className="carousel-indicators">
                 <li
                   data-target="#carouselExampleControls"
                   data-slide-to="0"
-                  class="active"
+                  className="active"
                 >
                   <img
                     src="https://mdbootstrap.com/img/Photos/Slides/img%20(45).jpg"
