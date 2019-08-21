@@ -1,6 +1,6 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-to see the demo [click here](https://raj-portfolio.netlify.com/)
+to see the demo [click here](https://rajv-portfolio.herokuapp.com/)
 
 ## Available Scripts
 
