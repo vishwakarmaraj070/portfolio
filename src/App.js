@@ -12,15 +12,17 @@ import Resume from './Component/Resume';
 function App() {
   return (
     <React.Fragment>
-      <Header />
+      
       <Router>
+      <Header />
         <Route path="/" exact component={About} />
         <Route path="/project" exact component={ProjectPage} />
         <Route path="/talks" exact component={TalkPage} />
         <Route path="/blog" exact component={BlogPage} />
         <Route path="/resume" exact component={Resume} />
+        <Footer />
       </Router>
-      <Footer />
+     
 
     </React.Fragment>
   );

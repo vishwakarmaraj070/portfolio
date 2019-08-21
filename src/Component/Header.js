@@ -1,7 +1,14 @@
 import React, { Component } from "react";
 import HalfBanner from "./HalfBanner";
+import {NavLink} from 'react-router-dom'
+import HomeBanner from "./HomeBanner";
 
 export default class Header extends Component {
+
+  state={
+    isHome: true
+  }
+
   render() {
     return (
       <React.Fragment>
@@ -47,35 +54,58 @@ export default class Header extends Component {
 
             <div className="collapse navbar-collapse text-uppercase" id="navigation">
 						<ul className="navbar-nav ml-lg-auto">
-							<li className="nav-item active mr-lg-3">
-							    <a className="nav-link" href="/">About</a>
+							<li onClick={(e)=>{
+                this.setState({
+                  isHome:true
+                })
+              }} className="nav-item mr-lg-3 ">
+							    <NavLink activeClassName="active" className="nav-link" to="/">About</NavLink>
 							</li>
-							<li className="nav-item mr-lg-3">
-							   <a className="nav-link" href="/project">Projects</a>
+							<li onClick={(e)=>{
+                this.setState({
+                  isHome:false
+                })
+              }} className="nav-item mr-lg-3">
+							   <NavLink activeClassName="active" className="nav-link project" to="/project">Projects</NavLink>
 							</li>
-							<li className="nav-item mr-lg-3">
-							    <a className="nav-link" href="/talks">Talks</a>
+							<li onClick={(e)=>{
+                this.setState({
+                  isHome:false
+                })
+              }} className="nav-item mr-lg-3">
+							    <NavLink activeClassName="active" className="nav-link" to="/talks">Talks</NavLink>
 							</li>
-							<li className="nav-item mr-lg-3">
-							    <a className="nav-link" href="/blog">Blog</a>
+							<li onClick={(e)=>{
+                 this.setState({
+                  isHome:false
+                })
+              }} className="nav-item mr-lg-3">
+							    <NavLink activeClassName="active" className="nav-link" to="/blog">Blog</NavLink>
 							</li>
-							<li className="nav-item mr-lg-3">
-							    <a className="nav-link" href="/resume">Resume</a>
+							<li onClick={(e)=>{
+                 this.setState({
+                  isHome:false
+                })
+              }} className="nav-item mr-lg-3">
+							    <NavLink activeClassName="active" className="nav-link" to="/resume">Resume</NavLink>
 							</li>
-							<li className="nav-item mr-lg-3">
-							    <a className="nav-link" href="/contact">Contact</a>
+							<li onClick={(e)=>{
+                 this.setState({
+                  isHome:false
+                })
+              }} className="nav-item mr-lg-3">
+							    <NavLink activeClassName="active" className="nav-link" to="/contact">Contact</NavLink>
 							</li>
 							<li className="nav-item dropdown mr-0">
-							    <a className="nav-link dropdown-toggle" href="#" id="navigationLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							    <NavLink activeClassName="active" className="nav-link dropdown-toggle" to="!" id="navigationLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 							Pages
-								</a>
+								</NavLink>
 								<div className="dropdown-menu dropdown-menu-right text-capitalize shadow-lg" aria-labelledby="navigationLink">
 									<a className="dropdown-item" href="#">Project Case Study (1 Column)</a>
 									<a className="dropdown-item" href="#">Project Case Study (2 Columns)</a>
 									<a className="dropdown-item" href="#">Blog Post</a>
 								</div>
 							</li>
-							
 						</ul>
 						<span id="slide-line"></span>
 					</div>
@@ -83,7 +113,15 @@ export default class Header extends Component {
         </nav>
 
          {/* half banner */}
-         <HalfBanner />
+         {
+           this.state.isHome ? window.location.href.indexOf('project') === -1 ? (
+             <HomeBanner />
+           ): (
+            <HalfBanner />
+           ): (
+              <HalfBanner />
+           )
+         }
         </header>
       </React.Fragment>
     );
