@@ -3,8 +3,26 @@ import Skills from './Skills';
 import Client from './Client';
 import Project from './Project';
 import Blog from './Blog';
+import $ from 'jquery'
 
 export default class About extends Component {
+
+	componentDidMount(){
+		$('section.section-featured-projects .carousel-item').hover(function(){
+			let height = this.clientHeight
+			let imgHeight = $(this.children).height()
+			$(this.children).css({
+				transition: "3s linear",
+				top: '-'+(imgHeight - height) + 'px'
+			})
+		},function(){
+			$(this.children).css({
+				transition: "1s linear",
+				top: '0px'
+			})
+		})
+	}
+
     render() {
         return (
             <React.Fragment>

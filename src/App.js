@@ -7,6 +7,7 @@ import ProjectPage from './Component/ProjectPage';
 import TalkPage from './Component/TalkPage';
 import BlogPage from './Component/BlogPage';
 import Resume from './Component/Resume';
+import ContactPage from './Component/ContactPage';
 
 
 export default class App extends React.Component{
@@ -22,6 +23,8 @@ export default class App extends React.Component{
         <Route path="/talks" exact component={TalkPage} />
         <Route path="/blog" exact component={BlogPage} />
         <Route path="/resume" exact component={Resume} />
+        <Route path="/contact" exact component={ContactPage} />
+
         <Footer />
       </Router>
     </React.Fragment>

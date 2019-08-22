@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import HalfBanner from "./HalfBanner";
 import { NavLink } from "react-router-dom";
 import HomeBanner from "./HomeBanner";
+import $ from 'jquery'
 
 export default class Header extends Component {
   state = {
@@ -10,13 +11,14 @@ export default class Header extends Component {
     titleContent: ""
   };
 
+
   render() {
     return (
       <React.Fragment>
         <header>
           <nav className="navbar navbar-expand-lg navbar-dark scrolling-navbar fixed-top text-sm theme-bg-primary-darken">
             <ul className="social-list list-inline mb-0">
-              <li className="list-inline-item mx-3">
+              <li className="list-inline-item mx-2">
                 <a className="text-white " href="#">
                   <svg
                     className="svg-inline--fa fa-twitter fa-w-16 fa-fw"
@@ -36,7 +38,7 @@ export default class Header extends Component {
                   </svg>
                 </a>
               </li>
-              <li className="list-inline-item mx-3">
+              <li className="list-inline-item mx-2">
                 <a className="text-white" href="#">
                   <svg
                     className="svg-inline--fa fa-linkedin-in fa-w-14 fa-fw"
@@ -56,7 +58,7 @@ export default class Header extends Component {
                   </svg>
                 </a>
               </li>
-              <li className="list-inline-item mx-3">
+              <li className="list-inline-item mx-2">
                 <a className="text-white" href="#">
                   <svg
                     className="svg-inline--fa fa-github-alt fa-w-15 fa-fw"
@@ -76,7 +78,7 @@ export default class Header extends Component {
                   </svg>
                 </a>
               </li>
-              <li className="list-inline-item mx-3 p-2">
+              <li className="list-inline-item mx-2">
                 <a className="text-white" href="#">
                   <svg
                     className="svg-inline--fa fa-stack-overflow fa-w-12 fa-fw"
@@ -96,7 +98,7 @@ export default class Header extends Component {
                   </svg>
                 </a>
               </li>
-              <li className="list-inline-item mx-3">
+              <li className="list-inline-item mx-2">
                 <a className="text-white" href="#">
                   <svg
                     className="svg-inline--fa fa-codepen fa-w-16 fa-fw"

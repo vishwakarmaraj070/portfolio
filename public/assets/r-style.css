@@ -493,6 +493,52 @@ div#carouselExampleControls .carousel-indicators>li {
   animation: load 0.5s ease-in;
 }
 
-/* .social-list a:hover{
-  line-height: 1.77;
-} */
+.social-list a{
+  width: 31px;
+  height: 31px;
+}
+
+section.section-featured-projects .carousel-item {
+  width: 80vw;
+  height: 50vh;
+  overflow: hidden!important;
+}
+
+section.section-featured-projects .carousel-item img {
+  width: 100%!important;
+  height: 150vh;
+  transition: 1s linear;
+  position: absolute!important;
+  top: 0;
+  left: 0;
+}
+
+#gallery .pics{
+  transition: 0.2s ease-in-out;
+}
+
+#talk .single-news{
+  cursor: pointer;
+  position: relative;
+}
+
+#talk .single-news.active{
+  background: #41A4F5;
+  
+}
+#talk .single-news.active p{
+  color: white!important;
+}
+
+.talk-click {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 222;
+}
+
+.talk-main{
+  transition: 0.2s ease-in-out;
+}

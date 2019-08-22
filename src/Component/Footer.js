@@ -17,21 +17,21 @@ export default class Footer extends Component {
 				Looking for an experienced full-stack developer to build your web app
 				or ship your software product? To start an initial chat, just drop me
 				an email at
-				<a className="link-on-bg" href="https://themes.3rdwavemedia.com/instance/bs4/#">steve.doe@youremail.com</a>
+				<a className="link-on-bg mx-2" href="!">vishwakarmaraj070@gmail.com</a>
 				or use the
-				<a className="link-on-bg" href="https://themes.3rdwavemedia.com/instance/bs4/contact.html">form on the
+				<a className="link-on-bg mx-2" href="http://rajv-portfolio.herokuapp.com/contact">form on the
 					contact page</a>.
 			</div>
 			<div className="text-center">
-				<a className="theme-btn-on-bg btn" href="https://themes.3rdwavemedia.com/instance/bs4/contact.html">Let's
+				<a className="theme-btn-on-bg btn" href="http://rajv-portfolio.herokuapp.com/contact">Let's
 					Talk</a>
 			</div>
 		</div>
 	</section>
 
 	<footer className="footer text-light text-center py-2 theme-bg-primary-darken">
-		<small className="copyright">Template Copyright ©
-			<a className="text-light" href="https://themes.3rdwavemedia.com/" target="_blank">3rd Wave Media</a></small>
+		<small className="copyright">All right reserved to ©
+			<a className="text-light" href="http://rajv-portfolio.herokuapp.com/">Raj vishwakarma</a></small>
 	</footer>
             </React.Fragment>
         )

@@ -4,11 +4,10 @@ export default class Client extends Component {
   render() {
     return (
       <React.Fragment>
-        <section className="bg-primary my-5 pt-5 text-center white-text">
+        <section className="bg-primary my-5 py-5 text-center white-text">
         <h3 className="section-title font-weight-bold text-center mb-5">
             Great clients I've worked with
             </h3>
-        
           <div className="wrapper-carousel-fix">
             <div
               id="carousel-example-1"
@@ -62,7 +61,7 @@ export default class Client extends Component {
                       voluptatem sequi nesciunt. Neque porro quisquam est, qui
                       dolorem ipsum quia dolor sit amet, consectetur, adipisci
                       velit, sed quia non numquam eius modi tempora incidunt ut
-                      labore.{" "}
+                      labore.
                     </p>
                     <h4 className="font-weight-bold">Maria Kate</h4>
                     <h6 className="font-weight-bold my-3">

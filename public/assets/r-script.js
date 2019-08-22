@@ -5,10 +5,7 @@ $(document).ready(function () {
     if(window.location.href.length !== window.location.href.lastIndexOf('/') + 1){
         $('.navbar .nav-link.about').removeClass('active')
     }
-
-
     let {width, left}= ''
-
     function slideLine(){
         width = $('.navbar .nav-link.active').outerWidth()
         let pos = $('.navbar .nav-link.active').position()
@@ -25,13 +22,8 @@ $(document).ready(function () {
         }
     );
 
-
     $('.navbar .nav-link').click(function(){
         $('.navbar .nav-link').removeClass('active')
         $(this).addClass('active')
     })
-
-    $('#mdb-lightbox-ui').load('../mdb-addons/mdb-lightbox-ui.html');
-
-   
 });
