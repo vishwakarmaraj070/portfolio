@@ -1,6 +1,14 @@
+
+
 $(document).ready(function () {
+
+    if(window.location.href.length !== window.location.href.lastIndexOf('/') + 1){
+        $('.navbar .nav-link.about').removeClass('active')
+    }
+
+
     let {width, left}= ''
-    
+
     function slideLine(){
         width = $('.navbar .nav-link.active').outerWidth()
         let pos = $('.navbar .nav-link.active').position()

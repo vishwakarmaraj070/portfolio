@@ -10,16 +10,15 @@ export default class Skills extends Component {
               Skills Overview
             </h3>
             <div className="section-intro mx-auto text-center mb-5 text-secondary">
-              I have more than 8 years' experience building rich web
+              I have more than 1 years' experience building rich web
               applications for clients all over the world. Below is a quick
               overview of my main technical skill sets and tools I use. Want to
               find out more about my experience?
-              <a href="https://themes.3rdwavemedia.com/instance/bs4/resume.html">
+              <a target="_blank" href="http://rajv-portfolio.herokuapp.com/resume">
                 Check out my online resume
               </a>
             </div>
             {/*skills  */}
-
             <div className="skills-blocks mx-auto pt-5">
               <div className="row">
                 <div className="skills-block col-12 col-lg-4 mb-5 mb-3 mb-lg-0">
@@ -30,7 +29,7 @@ export default class Skills extends Component {
                     <div className="skills-icon-holder position-absolute d-inline-block rounded-circle text-center">
                       <img
                         className="skills-icon"
-                        src="./Bootstrap 4 Portfolio Template For Developers_files/frontend-icon.svg"
+                        src={require(`../assets/frontend-icon.svg`)}
                       />
                     </div>
                     <ul className="skills-list list-unstyled text-secondary">
@@ -51,7 +50,7 @@ export default class Skills extends Component {
                             d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"
                           />
                         </svg>
-                        React/Redux/Angular
+                        React/Redux
                       </li>
                       <li className="mb-2">
                         <svg
@@ -70,7 +69,7 @@ export default class Skills extends Component {
                             d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"
                           />
                         </svg>
-                        Javascript
+                        Javascript/Jquery
                       </li>
                       <li className="mb-2">
                         <svg
@@ -126,8 +125,8 @@ export default class Skills extends Component {
                             fill="currentColor"
                             d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"
                           />
-                        </svg>{" "}
-                        HTML/CSS/SASS/LESS
+                        </svg>
+                        HTML/CSS/SASS
                       </li>
                     </ul>
                   </div>
@@ -135,12 +134,12 @@ export default class Skills extends Component {
                 <div className="skills-block col-12 col-lg-4 mb-5 mb-3 mb-lg-0">
                   <div className="skills-block-inner bg-white shadow-sm py-4 px-5 position-relative">
                     <h4 className="skills-cat text-center mb-3 mt-5">
-                      Frontend
+                      Backend
                     </h4>
                     <div className="skills-icon-holder position-absolute d-inline-block rounded-circle text-center">
                       <img
                         className="skills-icon"
-                        src="./Bootstrap 4 Portfolio Template For Developers_files/frontend-icon.svg"
+                        src={require(`../assets/backend-icon.svg`)}
                       />
                     </div>
                     <ul className="skills-list list-unstyled text-secondary">
@@ -161,7 +160,7 @@ export default class Skills extends Component {
                             d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"
                           />
                         </svg>
-                        React/Redux/Angular
+                       Node.js
                       </li>
                       <li className="mb-2">
                         <svg
@@ -180,7 +179,7 @@ export default class Skills extends Component {
                             d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"
                           />
                         </svg>
-                        Javascript
+                        Ajax
                       </li>
                       <li className="mb-2">
                         <svg
@@ -199,7 +198,7 @@ export default class Skills extends Component {
                             d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"
                           />
                         </svg>
-                        Node.js
+                        Express
                       </li>
                       <li className="mb-2">
                         <svg
@@ -218,7 +217,7 @@ export default class Skills extends Component {
                             d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"
                           />
                         </svg>
-                        Webpack/Gulp/Grunt
+                        MongoDB
                       </li>
                       <li className="mb-2">
                         <svg
@@ -237,7 +236,7 @@ export default class Skills extends Component {
                             d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"
                           />
                         </svg>{" "}
-                        HTML/CSS/SASS/LESS
+                        Sql
                       </li>
                     </ul>
                   </div>
@@ -245,12 +244,12 @@ export default class Skills extends Component {
                 <div className="skills-block col-12 col-lg-4 mb-5 mb-3 mb-lg-0">
                   <div className="skills-block-inner bg-white shadow-sm py-4 px-5 position-relative">
                     <h4 className="skills-cat text-center mb-3 mt-5">
-                      Frontend
+                      Others
                     </h4>
                     <div className="skills-icon-holder position-absolute d-inline-block rounded-circle text-center">
                       <img
                         className="skills-icon"
-                        src="./Bootstrap 4 Portfolio Template For Developers_files/frontend-icon.svg"
+                        src={require(`../assets/other-skills-icon.svg`)}
                       />
                     </div>
                     <ul className="skills-list list-unstyled text-secondary">
@@ -271,7 +270,7 @@ export default class Skills extends Component {
                             d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"
                           />
                         </svg>
-                        React/Redux/Angular
+                        NPM
                       </li>
                       <li className="mb-2">
                         <svg
@@ -290,7 +289,7 @@ export default class Skills extends Component {
                             d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"
                           />
                         </svg>
-                        Javascript
+                        JS Framework
                       </li>
                       <li className="mb-2">
                         <svg
@@ -309,7 +308,7 @@ export default class Skills extends Component {
                             d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"
                           />
                         </svg>
-                        Node.js
+                        Css Frameowrk
                       </li>
                       <li className="mb-2">
                         <svg
@@ -328,7 +327,7 @@ export default class Skills extends Component {
                             d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"
                           />
                         </svg>
-                        Webpack/Gulp/Grunt
+                        Online Tools
                       </li>
                       <li className="mb-2">
                         <svg
@@ -346,8 +345,8 @@ export default class Skills extends Component {
                             fill="currentColor"
                             d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"
                           />
-                        </svg>{" "}
-                        HTML/CSS/SASS/LESS
+                        </svg>
+                        Team Work
                       </li>
                     </ul>
                   </div>

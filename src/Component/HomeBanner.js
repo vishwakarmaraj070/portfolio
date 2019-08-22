@@ -14,44 +14,49 @@ export default class HomeBanner extends Component {
               />
               <div className="media-body text-center text-md-left">
                 <div className="lead">Hello, my name is</div>
-                <h2 className="mt-0 display-4 font-weight-bold">Steve Doe</h2>
+                <h2 className="mt-0 display-4 font-weight-bold">Raj Vishwakarma</h2>
                 <div className="bio mb-3">
-                  I'm a full-stack developer specialised in frontend and backend
+                  I'm a T-Shape developer specialised in frontend and i know backend also
                   development for complex scalable web apps. I write about web
                   development on
                   <a
-                    className="link-on-bg"
-                    href="https://themes.3rdwavemedia.com/instance/bs4/blog.html"
+                  target="_blank"
+                    className="link-on-bg mx-2"
+                    href="http://rajv-portfolio.herokuapp.com/blog"
                   >
                     my blog
                   </a>
                   and regularly
                   <a
-                    className="link-on-bg"
-                    href="https://themes.3rdwavemedia.com/instance/bs4/talks.html"
+                    target="_blank"
+                    className="link-on-bg mx-2"
+                    href="http://rajv-portfolio.herokuapp.com/talks"
                   >
                     speak
                   </a>
                   at various web conferences and meetups. Want to know how I may
                   help your project? Check out my project
                   <a
-                    className="link-on-bg"
-                    href="https://themes.3rdwavemedia.com/instance/bs4/projects.html"
+                  target="_blank"
+                    className="link-on-bg mx-2"
+                    href="http://rajv-portfolio.herokuapp.com/project"
                   >
                     case studies
                   </a>
                   and
                   <a
-                    className="link-on-bg"
-                    href="https://themes.3rdwavemedia.com/instance/bs4/resume.html"
+                    target="_blank"
+                    className="link-on-bg mx-2"
+                    href="http://rajv-portfolio.herokuapp.com/resume"
                   >
                     resume
                   </a>
                   .
                 </div>
                 <a
+                  target="_blank"
                   className="theme-btn-on-bg btn font-weight-bold theme-btn-cta"
-                  href="https://themes.3rdwavemedia.com/instance/bs4/contact.html"
+                  href="http://rajv-portfolio.herokuapp.com/contact"
                 >
                   Hire Me
                 </a>

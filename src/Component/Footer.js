@@ -4,7 +4,7 @@ export default class Footer extends Component {
     render() {
         return (
             <React.Fragment>
-               	<section className="section-cta py-5 bg-primary text-white">
+               	<section className="section-cta py-5 theme-bg-primary text-white">
 		<div className="container">
 			<div className="text-center">
 				<img className="profile-small d-inline-block mx-auto rounded-circle mb-2"

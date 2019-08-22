@@ -2,35 +2,25 @@ import React, { Component } from 'react'
 import $ from 'jquery'
 
 export default class ProjectPage extends Component {
-
-    handleActive = (e) => {
-        $('.btn.filter').removeClass('active btn-primary').addClass('btn-outline-primary')
-        $(e.target).addClass('active').addClass('btn-primary').removeClass('btn-outline-primary')
-    }
+componentDidMount(){
+    $('.btn.filter').click(function () {
+        $('.btn.filter').removeClass('btn-primary').addClass('btn-outline-primary')
+        $(this).removeClass('btn-outline-primary').addClass('btn-primary')
+    })
+}
     render() {
         return (
             <React.Fragment>
                 <div className="container my-5">
                     <section className="mt-3 mb-5 pt-1 pb-5">
-
-                        <h3 className="dark-grey-text fadeIn font-weight-bold text-center title wow" data-wow-delay="0.2s" style={{ visibility: 'visible', animationName: 'fadeIn', animationDelay: '0.2s' }}>
-                            <strong>Our projects</strong>
-                        </h3>
+                    <h2 class="h1-responsive font-weight-bold text-center my-5">Our projects</h2>
 
                         <div className="row">
 
                             <div className="col-md-12 d-flex justify-content-center mb-5 pb-2">
-
-                                <button onClick={(e) => {
-                                    this.handleActive(e)
-                                }} type="button" className={`btn btn-rounded active btn-primary font-weight-bold waves-effect waves-dark filter`} data-rel="all">All</button>
-                                <button onClick={(e) => {
-                                    this.handleActive(e)
-                                }} type="button" className="btn btn-rounded btn-outline-primary font-weight-bold waves-effect waves-dark filter" data-rel="Branding">Branding</button>
-                                <button onClick={(e) => {
-                                    this.handleActive(e)
-                                }} type="button" className="btn btn-rounded btn-outline-primary font-weight-bold waves-effect waves-dark filter" data-rel="webdesign">web design</button>
-
+                                <button type="button" className={`btn btn-rounded btn-primary font-weight-bold waves-effect waves-dark filter`} data-rel="all">All</button>
+                                <button  type="button" className="btn btn-rounded btn-outline-primary font-weight-bold waves-effect waves-dark filter" data-rel="Branding">Branding</button>
+                                <button type="button" className="btn btn-rounded btn-outline-primary font-weight-bold waves-effect waves-dark filter" data-rel="webdesign">web design</button>
                             </div>
 
                         </div>

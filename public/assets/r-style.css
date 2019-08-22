@@ -492,3 +492,7 @@ div#carouselExampleControls .carousel-indicators>li {
   opacity: 1;
   animation: load 0.5s ease-in;
 }
+
+/* .social-list a:hover{
+  line-height: 1.77;
+} */

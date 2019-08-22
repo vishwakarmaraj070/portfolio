@@ -9,7 +9,9 @@ import BlogPage from './Component/BlogPage';
 import Resume from './Component/Resume';
 
 
-function App() {
+export default class App extends React.Component{
+
+  render(){
   return (
     <React.Fragment>
       
@@ -22,10 +24,7 @@ function App() {
         <Route path="/resume" exact component={Resume} />
         <Footer />
       </Router>
-     
-
     </React.Fragment>
   );
+  }
 }
-
-export default App;
