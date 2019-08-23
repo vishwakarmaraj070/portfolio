@@ -71,26 +71,25 @@ handleFilter =(e, value)=>{
                             <div className="mb-3 pics animation Frontend Fullstack hoverable p-2 border border-primary">
                                 <img className="img-fluid" src={require(`../assets/project/fixxgroup.png`)} alt="Card image cap" />
                             </div>
+                            
+                            <div className="mb-3 pics animation Frontend React hoverable p-2 border border-primary">
+                                <img className="img-fluid" src={require(`../assets/project/developer-book.png`)} alt="Card image cap" />
+                            </div>
 
                             <div className="mb-3 pics animation Frontend React hoverable p-2 border border-primary">
                                 <img className="img-fluid" src={require(`../assets/project/creaive-agency.png`)} alt="Card image cap" />
+                            </div>
+
+                            <div className="mb-3 pics animation Frontend React hoverable p-2 border border-primary">
+                                <img className="img-fluid" src={require(`../assets/project/resume.png`)} alt="Card image cap" />
                             </div>
 
                             <div className="mb-3 pics animation Frontend hoverable p-2 border border-primary">
                                 <img className="img-fluid" src={require(`../assets/project/traaexplore-fixx.png`)} alt="Card image cap" />
                             </div>
 
-                            
-                            <div className="mb-3 pics animation Frontend React hoverable p-2 border border-primary">
-                                <img className="img-fluid" src={require(`../assets/project/developer-book.png`)} alt="Card image cap" />
-                            </div>
-
                             <div className="mb-3 pics animation Frontend Fullstack hoverable p-2 border border-primary">
                                 <img className="img-fluid" src={require(`../assets/project/traaexplore-netlify.png`)} alt="Card image cap" />
-                            </div>
-
-                            <div className="mb-3 pics animation Frontend React hoverable p-2 border border-primary">
-                                <img className="img-fluid" src={require(`../assets/project/resume.png`)} alt="Card image cap" />
                             </div>
 
                             <div className="mb-3 pics animation Frontend hoverable p-2 border border-primary">
