@@ -20,7 +20,7 @@ export default class Client extends Component {
                   <div className="testimonial">
                     <div className="avatar mx-auto mb-4">
                       <img
-                        src="https://mdbootstrap.com/img/Photos/Avatars/img%20(30).jpg"
+                        src={require(`../assets/client/cl1.png`)}
                         className="rounded-circle img-fluid"
                         alt="First sample avatar image"
                       />
@@ -34,9 +34,9 @@ export default class Client extends Component {
                       laboriosam labore sit, aspernatur praesentium iste impedit
                       quidem dolor veniam.
                     </p>
-                    <h4 className="font-weight-bold">Anna Deynah</h4>
+                    <h4 className="font-weight-bold">Bigshelfimagin</h4>
                     <h6 className="font-weight-bold my-3">
-                      Founder at ET Company
+                      Founder at this Company
                     </h6>
                     <i className="fa fa-star blue-text"> </i>
                     <i className="fa fa-star blue-text"> </i>
@@ -49,7 +49,7 @@ export default class Client extends Component {
                   <div className="testimonial">
                     <div className="avatar mx-auto mb-4">
                       <img
-                        src="https://mdbootstrap.com/img/Photos/Avatars/img%20(31).jpg"
+                        src={require(`../assets/client/cl4.png`)}
                         className="rounded-circle img-fluid"
                         alt="Second sample avatar image"
                       />
@@ -63,9 +63,9 @@ export default class Client extends Component {
                       velit, sed quia non numquam eius modi tempora incidunt ut
                       labore.
                     </p>
-                    <h4 className="font-weight-bold">Maria Kate</h4>
+                    <h4 className="font-weight-bold">Bemad</h4>
                     <h6 className="font-weight-bold my-3">
-                      Photographer at Studio LA
+                      E-commerce site owner
                     </h6>
                     <i className="fas fa-star blue-text"> </i>
                     <i className="fas fa-star blue-text"> </i>
@@ -78,7 +78,7 @@ export default class Client extends Component {
                   <div className="testimonial">
                     <div className="avatar mx-auto mb-4">
                       <img
-                        src="https://mdbootstrap.com/img/Photos/Avatars/img%20(3).jpg"
+                        src={require(`../assets/client/cl6.png`)}
                         className="rounded-circle img-fluid"
                         alt="Third sample avatar image"
                       />
@@ -92,9 +92,183 @@ export default class Client extends Component {
                       natus error sit voluptatem accusantium doloremque
                       laudantium.
                     </p>
-                    <h4 className="font-weight-bold">John Doe</h4>
+                    <h4 className="font-weight-bold">traaexplore</h4>
                     <h6 className="font-weight-bold my-3">
-                      Front-end Developer in NY
+                      Front-end Developer want more
+                    </h6>
+                    <i className="fas fa-star blue-text"> </i>
+                    <i className="fas fa-star blue-text"> </i>
+                    <i className="fas fa-star blue-text"> </i>
+                    <i className="fas fa-star blue-text"> </i>
+                    <i className="far fa-star blue-text"> </i>
+                  </div>
+                </div>
+                <div className="carousel-item">
+                  <div className="testimonial">
+                    <div className="avatar mx-auto mb-4">
+                      <img
+                        src={require(`../assets/client/cl7.png`)}
+                        className="rounded-circle img-fluid"
+                        alt="Third sample avatar image"
+                      />
+                    </div>
+                    <p>
+                      <i className="fas fa-quote-left" /> Duis aute irure dolor
+                      in reprehenderit in voluptate velit esse cillum dolore eu
+                      fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+                      non proident, sunt in culpa qui officia deserunt mollit
+                      anim id est laborum. Sed ut perspiciatis unde omnis iste
+                      natus error sit voluptatem accusantium doloremque
+                      laudantium.
+                    </p>
+                    <h4 className="font-weight-bold">Fixxgroup</h4>
+                    <h6 className="font-weight-bold my-3">
+                      Front-end Developer want more
+                    </h6>
+                    <i className="fas fa-star blue-text"> </i>
+                    <i className="fas fa-star blue-text"> </i>
+                    <i className="fas fa-star blue-text"> </i>
+                    <i className="fas fa-star blue-text"> </i>
+                    <i className="far fa-star blue-text"> </i>
+                  </div>
+                </div>
+                <div className="carousel-item">
+                  <div className="testimonial">
+                    <div className="avatar mx-auto mb-4">
+                      <img
+                        src={require(`../assets/client/cl8.png`)}
+                        className="rounded-circle img-fluid"
+                        alt="Third sample avatar image"
+                      />
+                    </div>
+                    <p>
+                      <i className="fas fa-quote-left" /> Duis aute irure dolor
+                      in reprehenderit in voluptate velit esse cillum dolore eu
+                      fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+                      non proident, sunt in culpa qui officia deserunt mollit
+                      anim id est laborum. Sed ut perspiciatis unde omnis iste
+                      natus error sit voluptatem accusantium doloremque
+                      laudantium.
+                    </p>
+                    <h4 className="font-weight-bold">Crizel ARCI</h4>
+                    <h6 className="font-weight-bold my-3">
+                      Founder of this arcitecture websites
+                    </h6>
+                    <i className="fas fa-star blue-text"> </i>
+                    <i className="fas fa-star blue-text"> </i>
+                    <i className="fas fa-star blue-text"> </i>
+                    <i className="fas fa-star blue-text"> </i>
+                    <i className="far fa-star blue-text"> </i>
+                  </div>
+                </div>
+                <div className="carousel-item">
+                  <div className="testimonial">
+                    <div className="avatar mx-auto mb-4">
+                      <img
+                        src={require(`../assets/client/cl9.png`)}
+                        className="rounded-circle img-fluid"
+                        alt="Third sample avatar image"
+                      />
+                    </div>
+                    <p>
+                      <i className="fas fa-quote-left" /> Duis aute irure dolor
+                      in reprehenderit in voluptate velit esse cillum dolore eu
+                      fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+                      non proident, sunt in culpa qui officia deserunt mollit
+                      anim id est laborum. Sed ut perspiciatis unde omnis iste
+                      natus error sit voluptatem accusantium doloremque
+                      laudantium.
+                    </p>
+                    <h4 className="font-weight-bold">Grip academy</h4>
+                    <h6 className="font-weight-bold my-3">
+                      Front-end Developer want more
+                    </h6>
+                    <i className="fas fa-star blue-text"> </i>
+                    <i className="fas fa-star blue-text"> </i>
+                    <i className="fas fa-star blue-text"> </i>
+                    <i className="fas fa-star blue-text"> </i>
+                    <i className="far fa-star blue-text"> </i>
+                  </div>
+                </div>
+                <div className="carousel-item">
+                  <div className="testimonial">
+                    <div className="avatar mx-auto mb-4">
+                      <img
+                        src={require(`../assets/client/cl2.png`)}
+                        className="rounded-circle img-fluid"
+                        alt="Third sample avatar image"
+                      />
+                    </div>
+                    <p>
+                      <i className="fas fa-quote-left" /> Duis aute irure dolor
+                      in reprehenderit in voluptate velit esse cillum dolore eu
+                      fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+                      non proident, sunt in culpa qui officia deserunt mollit
+                      anim id est laborum. Sed ut perspiciatis unde omnis iste
+                      natus error sit voluptatem accusantium doloremque
+                      laudantium.
+                    </p>
+                    <h4 className="font-weight-bold">Astrolrger Shanker</h4>
+                    <h6 className="font-weight-bold my-3">
+                      owner of this sites
+                    </h6>
+                    <i className="fas fa-star blue-text"> </i>
+                    <i className="fas fa-star blue-text"> </i>
+                    <i className="fas fa-star blue-text"> </i>
+                    <i className="fas fa-star blue-text"> </i>
+                    <i className="far fa-star blue-text"> </i>
+                  </div>
+                </div>
+                <div className="carousel-item">
+                  <div className="testimonial">
+                    <div className="avatar mx-auto mb-4">
+                      <img
+                        src={require(`../assets/client/cl3.png`)}
+                        className="rounded-circle img-fluid"
+                        alt="Third sample avatar image"
+                      />
+                    </div>
+                    <p>
+                      <i className="fas fa-quote-left" /> Duis aute irure dolor
+                      in reprehenderit in voluptate velit esse cillum dolore eu
+                      fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+                      non proident, sunt in culpa qui officia deserunt mollit
+                      anim id est laborum. Sed ut perspiciatis unde omnis iste
+                      natus error sit voluptatem accusantium doloremque
+                      laudantium.
+                    </p>
+                    <h4 className="font-weight-bold">Shakti murgan</h4>
+                    <h6 className="font-weight-bold my-3">
+                      owner of this websites
+                    </h6>
+                    <i className="fas fa-star blue-text"> </i>
+                    <i className="fas fa-star blue-text"> </i>
+                    <i className="fas fa-star blue-text"> </i>
+                    <i className="fas fa-star blue-text"> </i>
+                    <i className="far fa-star blue-text"> </i>
+                  </div>
+                </div>
+                <div className="carousel-item">
+                  <div className="testimonial">
+                    <div className="avatar mx-auto mb-4">
+                      <img
+                        src={require(`../assets/client/cl5.png`)}
+                        className="rounded-circle img-fluid"
+                        alt="Third sample avatar image"
+                      />
+                    </div>
+                    <p>
+                      <i className="fas fa-quote-left" /> Duis aute irure dolor
+                      in reprehenderit in voluptate velit esse cillum dolore eu
+                      fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+                      non proident, sunt in culpa qui officia deserunt mollit
+                      anim id est laborum. Sed ut perspiciatis unde omnis iste
+                      natus error sit voluptatem accusantium doloremque
+                      laudantium.
+                    </p>
+                    <h4 className="font-weight-bold">cabs-to</h4>
+                    <h6 className="font-weight-bold my-3">
+                      car-rental websites want more
                     </h6>
                     <i className="fas fa-star blue-text"> </i>
                     <i className="fas fa-star blue-text"> </i>

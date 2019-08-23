@@ -159,7 +159,7 @@ export default class Header extends Component {
                         isHome: false,
                         title: "Project",
                         titleContent:
-                          "Here is My Best Project, That i severed to client"
+                          "Here is My Best Project, That i created for client"
                       });
                     }}
                     className="nav-item mr-lg-3"

@@ -9,10 +9,7 @@ export default class Blog extends Component {
 <h3 className="section-title font-weight-bold text-center mb-3">
 Latest Blog Posts
             </h3>
-  <p className="grey-text text-center w-responsive mx-auto mb-5">Lorem ipsum dolor sit amet, consectetur
-    adipisicing elit. Fugit, error amet numquam iure provident voluptate esse quasi, veritatis totam voluptas
-    nostrum quisquam eum porro a pariatur veniam.</p>
-
+  <p className="grey-text text-center w-responsive mx-auto mb-5">Our Blog will come soon in future, it will goes like this</p>
   <div id="multi-item-example" className="carousel slide carousel-multi-item" data-ride="carousel">
     <div className="controls-top">
       <a className="btn-floating primary-color waves-effect waves-light" href="#multi-item-example" data-slide="prev">
@@ -30,7 +27,7 @@ Latest Blog Posts
     <div className="carousel-inner" role="listbox">
       <div className="carousel-item active">
         <div className="col-md-4 mb-2">
-          <div className="card card-cascade narrower card-ecommerce">
+          <div className="card card-cascade narrower card-ecommerce ">
             <div className="view view-cascade overlay">
               <img src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Products/img%20(39).jpg" className="card-img-top"
                 alt="sample photo" />
@@ -38,7 +35,7 @@ Latest Blog Posts
                 <div className="mask rgba-white-slight"></div>
               </a>
             </div>
-            <div className="card-body card-body-cascade text-center">
+            <div className="card-body card-body-cascade text-center pb-0">
               <a href="" className="text-muted">
                 <h5>Shoes</h5>
               </a>
@@ -51,15 +48,7 @@ Latest Blog Posts
                 consectetur, adipisci.
               </p>
               <div className="card-footer px-1">
-                <span className="float-left">69$</span>
-                <span className="float-right">
-                  <a className="" data-toggle="tooltip" data-placement="top" title="" data-original-title="Quick Look">
-                    <i className="fas fa-eye ml-3"></i>
-                  </a>
-                  <a className="" data-toggle="tooltip" data-placement="top" title="" data-original-title="Add to Wishlist">
-                    <i className="fas fa-heart ml-3"></i>
-                  </a>
-                </span>
+                <button className="btn btn-outline-primary">Read more</button>
               </div>
             </div>
           </div>
@@ -73,7 +62,7 @@ Latest Blog Posts
                 <div className="mask rgba-white-slight"></div>
               </a>
             </div>
-            <div className="card-body card-body-cascade text-center">
+            <div className="card-body card-body-cascade text-center pb-0">
               <a href="" className="text-muted">
                 <h5>Jeans</h5>
               </a>
@@ -86,15 +75,7 @@ Latest Blog Posts
                 consectetur, adipisci.
               </p>
               <div className="card-footer px-1">
-                <span className="float-left">99$</span>
-                <span className="float-right">
-                  <a className="" data-toggle="tooltip" data-placement="top" title="" data-original-title="Quick Look">
-                    <i className="fas fa-eye ml-3"></i>
-                  </a>
-                  <a className="" data-toggle="tooltip" data-placement="top" title="" data-original-title="Add to Wishlist">
-                    <i className="fas fa-heart ml-3"></i>
-                  </a>
-                </span>
+              <button className="btn btn-outline-primary">Read more</button>
               </div>
             </div>
           </div>
@@ -107,7 +88,7 @@ Latest Blog Posts
                 <div className="mask rgba-white-slight"></div>
               </a>
             </div>
-            <div className="card-body card-body-cascade text-center">
+            <div className="card-body card-body-cascade text-center pb-0">
               <a href="" className="text-muted">
                 <h5>Shorts</h5>
               </a>
@@ -120,15 +101,7 @@ Latest Blog Posts
                 consectetur, adipisci.
               </p>
               <div className="card-footer px-1">
-                <span className="float-left">49$</span>
-                <span className="float-right">
-                  <a className="" data-toggle="tooltip" data-placement="top" title="" data-original-title="Quick Look">
-                    <i className="fas fa-eye ml-3"></i>
-                  </a>
-                  <a className="" data-toggle="tooltip" data-placement="top" title="" data-original-title="Add to Wishlist">
-                    <i className="fas fa-heart ml-3"></i>
-                  </a>
-                </span>
+              <button className="btn btn-outline-primary">Read more</button>
               </div>
             </div>
           </div>
@@ -144,7 +117,7 @@ Latest Blog Posts
                 <div className="mask rgba-white-slight"></div>
               </a>
             </div>
-            <div className="card-body card-body-cascade text-center">
+            <div className="card-body card-body-cascade text-center pb-0">
               <a href="" className="text-muted">
                 <h5>Accessories</h5>
               </a>
@@ -157,15 +130,7 @@ Latest Blog Posts
                 consectetur, adipisci.
               </p>
               <div className="card-footer px-1">
-                <span className="float-left">39$</span>
-                <span className="float-right">
-                  <a className="" data-toggle="tooltip" data-placement="top" title="" data-original-title="Quick Look">
-                    <i className="fas fa-eye ml-3"></i>
-                  </a>
-                  <a className="" data-toggle="tooltip" data-placement="top" title="" data-original-title="Add to Wishlist">
-                    <i className="fas fa-heart ml-3"></i>
-                  </a>
-                </span>
+              <button className="btn btn-outline-primary">Read more</button>
               </div>
             </div>
           </div>
@@ -179,7 +144,7 @@ Latest Blog Posts
                 <div className="mask rgba-white-slight"></div>
               </a>
             </div>
-            <div className="card-body card-body-cascade text-center">
+            <div className="card-body card-body-cascade text-center pb-0">
                 <a href="" className="text-muted">
                 <h5>Shoes</h5>
               </a>
@@ -192,15 +157,7 @@ Latest Blog Posts
                 consectetur, adipisci.
               </p>
               <div className="card-footer px-1">
-                <span className="float-left">79$</span>
-                <span className="float-right">
-                  <a className="" data-toggle="tooltip" data-placement="top" title="" data-original-title="Quick Look">
-                    <i className="fas fa-eye ml-3"></i>
-                  </a>
-                  <a className="" data-toggle="tooltip" data-placement="top" title="" data-original-title="Add to Wishlist">
-                    <i className="fas fa-heart ml-3"></i>
-                  </a>
-                </span>
+              <button className="btn btn-outline-primary">Read more</button>
               </div>
             </div>
           </div>
@@ -214,7 +171,7 @@ Latest Blog Posts
                 <div className="mask rgba-white-slight"></div>
               </a>
             </div>
-            <div className="card-body card-body-cascade text-center">
+            <div className="card-body card-body-cascade text-center pb-0">
               <a href="" className="text-muted">
                 <h5>Outerwear</h5>
               </a>
@@ -227,15 +184,7 @@ Latest Blog Posts
                 consectetur, adipisci.
               </p>
               <div className="card-footer px-1">
-                <span className="float-left">149$</span>
-                <span className="float-right">
-                  <a className="" data-toggle="tooltip" data-placement="top" title="" data-original-title="Quick Look">
-                    <i className="fas fa-eye ml-3"></i>
-                  </a>
-                  <a className="" data-toggle="tooltip" data-placement="top" title="" data-original-title="Add to Wishlist">
-                    <i className="fas fa-heart ml-3"></i>
-                  </a>
-                </span>
+              <button className="btn btn-outline-primary">Read more</button>
               </div>
             </div>
           </div>
@@ -251,7 +200,7 @@ Latest Blog Posts
                 <div className="mask rgba-white-slight"></div>
               </a>
             </div>
-            <div className="card-body card-body-cascade text-center">
+            <div className="card-body card-body-cascade text-center pb-0">
               <a href="" className="text-muted">
                 <h5>Accessories</h5>
               </a>
@@ -264,15 +213,7 @@ Latest Blog Posts
                 consectetur, adipisci.
               </p>
               <div className="card-footer px-1">
-                <span className="float-left">29$</span>
-                <span className="float-right">
-                  <a className="" data-toggle="tooltip" data-placement="top" title="" data-original-title="Quick Look">
-                    <i className="fas fa-eye ml-3"></i>
-                  </a>
-                  <a className="" data-toggle="tooltip" data-placement="top" title="" data-original-title="Add to Wishlist">
-                    <i className="fas fa-heart ml-3"></i>
-                  </a>
-                </span>
+              <button className="btn btn-outline-primary">Read more</button>
               </div>
             </div>
           </div>
@@ -286,7 +227,7 @@ Latest Blog Posts
                 <div className="mask rgba-white-slight"></div>
               </a>
             </div>
-            <div className="card-body card-body-cascade text-center">
+            <div className="card-body card-body-cascade text-center pb-0">
               <a href="" className="text-muted">
                 <h5>Accessories</h5>
               </a>
@@ -299,15 +240,7 @@ Latest Blog Posts
                 consectetur, adipisci.
               </p>
               <div className="card-footer px-1">
-                <span className="float-left">89$</span>
-                <span className="float-right">
-                  <a className="" data-toggle="tooltip" data-placement="top" title="" data-original-title="Quick Look">
-                    <i className="fas fa-eye ml-3"></i>
-                  </a>
-                  <a className="" data-toggle="tooltip" data-placement="top" title="" data-original-title="Add to Wishlist">
-                    <i className="fas fa-heart ml-3"></i>
-                  </a>
-                </span>
+              <button className="btn btn-outline-primary">Read more</button>
               </div>
             </div>
           </div>
@@ -321,7 +254,7 @@ Latest Blog Posts
                 <div className="mask rgba-white-slight"></div>
               </a>
             </div>
-            <div className="card-body card-body-cascade text-center">
+            <div className="card-body card-body-cascade text-center pb-0">
               <a href="" className="text-muted">
                 <h5>Shoes</h5>
               </a>
@@ -334,15 +267,7 @@ Latest Blog Posts
                 consectetur, adipisci.
               </p>
               <div className="card-footer px-1">
-                <span className="float-left">129$</span>
-                <span className="float-right">
-                  <a className="" data-toggle="tooltip" data-placement="top" title="" data-original-title="Quick Look">
-                    <i className="fas fa-eye ml-3"></i>
-                  </a>
-                  <a className="" data-toggle="tooltip" data-placement="top" title="" data-original-title="Add to Wishlist">
-                    <i className="fas fa-heart ml-3"></i>
-                  </a>
-                </span>
+              <button className="btn btn-outline-primary">Read more</button>
               </div>
             </div>
           </div>

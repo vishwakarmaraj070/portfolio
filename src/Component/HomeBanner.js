@@ -8,8 +8,8 @@ export default class HomeBanner extends Component {
           <div className="container">
             <div className="profile-teaser media flex-column flex-md-row">
               <img
-                className="profile-image mb-3 mb-md-0 mr-md-5 ml-md-0 rounded mx-auto"
-                src="./Bootstrap 4 Portfolio Template For Developers_files/profile.jpg"
+                className="profile-image mb-3 mb-md-0 mr-md-5 ml-md-0 rounded mx-auto z-depth-1-half"
+                src={require(`../assets/profile.jpg`)}
                 alt="profile-img"
               />
               <div className="media-body text-center text-md-left">

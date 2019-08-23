@@ -2,9 +2,6 @@ import React, { Component } from 'react'
 import $ from 'jquery'
 
 export default class ProjectPage extends Component {
-componentDidMount(){
-    
-}
 
 handleFilter =(e, value)=>{
     $('.btn.filter').removeClass('btn-primary').addClass('btn-outline-primary')
@@ -48,29 +45,66 @@ handleFilter =(e, value)=>{
 
                         <div className="gallery" id="gallery">
 
-                            <div className="mb-3 pics animation Frontend React">
-                                <img className="img-fluid" src={require(`../assets/58.jpg`)} alt="Card image cap" />
+                            <div className="mb-3 pics animation Frontend hoverable p-2 border border-primary">
+                                <img className="img-fluid" src={require(`../assets/project/crizelarci.png`)} alt="Card image cap" />
                             </div>
 
-                            <div className="mb-3 pics animation Frontend Fullstack">
-                                <img className="img-fluid" src={require(`../assets/7.jpg`)} alt="Card image cap" />
+                            <div className="mb-3 pics animation Frontend Fullstack hoverable p-2 border border-primary">
+                                <img className="img-fluid" src={require(`../assets/project/bigshelfimagin.png`)} alt="Card image cap" />
                             </div>
 
-                            <div className="mb-3 pics animation Frontend Fullstack">
-                                <img className="img-fluid" src={require(`../assets/4.jpg`)} alt="Card image cap" />
+                            <div className="mb-3 pics animation Frontend React hoverable p-2 border border-primary">
+                                <img className="img-fluid" src={require(`../assets/project/react-app.png`)} alt="Card image cap" />
                             </div>
 
-                            <div className="mb-3 pics animation Frontend React">
-                                <img className="img-fluid" src={require(`../assets/63.jpg`)} alt="Card image cap" />
+                            <div className="mb-3 pics animation Frontend hoverable p-2 border border-primary">
+                                <img className="img-fluid" src={require(`../assets/project/blog.png`)} alt="Card image cap" />
                             </div>
 
-                            <div className="mb-3 pics animation Frontend React">
-                                <img className="img-fluid" src={require(`../assets/64.jpg`)} alt="Card image cap" />
+                            <div className="mb-3 pics animation Frontend Fullstack hoverable p-2 border border-primary">
+                                <img className="img-fluid" src={require(`../assets/project/bemad.png`)} alt="Card image cap" />
+                            </div>
+                            <div className="mb-3 pics animation Frontend hoverable p-2 border border-primary">
+                                <img className="img-fluid" src={require(`../assets/project/car-rental.png`)} alt="Card image cap" />
                             </div>
 
-                            <div className="mb-3 pics animation Frontend Branding">
-                                <img className="img-fluid" src={require(`../assets/62.jpg`)} alt="Card image cap" />
+                            <div className="mb-3 pics animation Frontend Fullstack hoverable p-2 border border-primary">
+                                <img className="img-fluid" src={require(`../assets/project/fixxgroup.png`)} alt="Card image cap" />
                             </div>
+
+                            <div className="mb-3 pics animation Frontend React hoverable p-2 border border-primary">
+                                <img className="img-fluid" src={require(`../assets/project/creaive-agency.png`)} alt="Card image cap" />
+                            </div>
+
+                            <div className="mb-3 pics animation Frontend hoverable p-2 border border-primary">
+                                <img className="img-fluid" src={require(`../assets/project/traaexplore-fixx.png`)} alt="Card image cap" />
+                            </div>
+
+                            
+                            <div className="mb-3 pics animation Frontend React hoverable p-2 border border-primary">
+                                <img className="img-fluid" src={require(`../assets/project/developer-book.png`)} alt="Card image cap" />
+                            </div>
+
+                            <div className="mb-3 pics animation Frontend Fullstack hoverable p-2 border border-primary">
+                                <img className="img-fluid" src={require(`../assets/project/traaexplore-netlify.png`)} alt="Card image cap" />
+                            </div>
+
+                            <div className="mb-3 pics animation Frontend React hoverable p-2 border border-primary">
+                                <img className="img-fluid" src={require(`../assets/project/resume.png`)} alt="Card image cap" />
+                            </div>
+
+                            <div className="mb-3 pics animation Frontend hoverable p-2 border border-primary">
+                                <img className="img-fluid" src={require(`../assets/project/psychicastrologershankar.png`)} alt="Card image cap" />
+                            </div>
+
+                            <div className="mb-3 pics animation Frontend hoverable p-2 border border-primary">
+                                <img className="img-fluid" src={require(`../assets/project/traaex-fixx2.png`)} alt="Card image cap" />
+                            </div>
+
+                            <div className="mb-3 pics animation Frontend Fullstack hoverable p-2 border border-primary">
+                                <img className="img-fluid" src={require(`../assets/project/psychicshakthimurugan.png`)} alt="Card image cap" />
+                            </div>
+
 
                         </div>
 

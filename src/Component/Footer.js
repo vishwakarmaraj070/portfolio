@@ -8,7 +8,7 @@ export default class Footer extends Component {
 		<div className="container">
 			<div className="text-center">
 				<img className="profile-small d-inline-block mx-auto rounded-circle mb-2"
-					src="./Bootstrap 4 Portfolio Template For Developers_files/profile.jpg" alt="" />
+					src={require(`../assets/profile.jpg`)} alt="profile" />
 			</div>
 			<h3 className="section-title font-weight-bold text-center mb-2">
 				Interested in hiring me for your project?
@@ -23,7 +23,7 @@ export default class Footer extends Component {
 					contact page</a>.
 			</div>
 			<div className="text-center">
-				<a className="theme-btn-on-bg btn" href="http://rajv-portfolio.herokuapp.com/contact">Let's
+				<a className="theme-btn-on-bg btn" href="http://rajv-portfolio.herokuapp.com/talk">Let's
 					Talk</a>
 			</div>
 		</div>
