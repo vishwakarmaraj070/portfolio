@@ -60,13 +60,10 @@ export default class TalkPage extends Component {
         <div className="container">
           <section className="magazine-section my-5">
             <h2 className="h1-responsive font-weight-bold text-center mt-5 mb-3">
-              Section title
+              Talks 
             </h2>
             <p className="text-center dark-grey-text w-responsive mx-auto mb-4">
-              Duis aute irure dolor in reprehenderit in voluptate velit esse
-              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-              cupidatat non proident, sunt in culpa qui officia deserunt mollit
-              id laborum.
+             This section will come soon as like this
             </p>
 
             <div className="row">
@@ -86,7 +83,7 @@ export default class TalkPage extends Component {
                   <div className="news-data d-flex justify-content-between">
                     <a href="#!" className="deep-orange-text">
                       <h6 className="font-weight-bold">
-                        <i className="fas fa-utensils pr-2" />Raj Blogs
+                        <i className="fas fa-utensils pr-2" />Raj Talk
                       </h6>
                     </a>
                     <p className="font-weight-bold dark-grey-text">

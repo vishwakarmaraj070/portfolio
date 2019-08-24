@@ -200,7 +200,7 @@ export default class Project extends Component {
             <div className="text-center">
               <a
                 className="btn btn-primary"
-                href="http://rajv-portfolio.herokuapp.com/project"
+                href="/project"
               >
                 View all projects & Details
               </a>

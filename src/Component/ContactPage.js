@@ -7,11 +7,18 @@ export default class ContactPage extends Component {
             <React.Fragment>
                 <section className="contact-section my-5">
                 <div className="container">
+                <h2 className="h1-responsive font-weight-bold text-center mt-5 mb-3">
+                                Free To Contact 
+                                </h2>
+                                <p className="text-center dark-grey-text w-responsive mx-auto mb-4">
+                                This section will come soon as like this
+                                </p>
                     <div className="card">
-
+                        
                         <div className="row">
 
                             <div className="col-lg-8">
+                           
 
                                 <div className="card-body form">
 

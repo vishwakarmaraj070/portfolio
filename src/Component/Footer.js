@@ -17,7 +17,7 @@ export default class Footer extends Component {
 				Looking for an experienced full-stack developer to build your web app
 				or ship your software product? To start an initial chat, just drop me
 				an email at
-				<a className="link-on-bg mx-2" href="!">vishwakarmaraj070@gmail.com</a>
+				<a className="link-on-bg mx-2" href="mailto:vishwakarmaraj070@gmail.com">vishwakarmaraj070@gmail.com</a>
 				or use the
 				<a className="link-on-bg mx-2" href="http://rajv-portfolio.herokuapp.com/contact">form on the
 					contact page</a>.
