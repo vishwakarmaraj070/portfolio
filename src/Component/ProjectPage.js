@@ -112,6 +112,12 @@ handleFilter =(e, value)=>{
                             </div>
 
                             <div className="mb-3 pics animation Frontend React hoverable p-2 border border-primary">
+                            <a href="https://raj-ui.netlify.com" target="_blank">
+                                <img className="img-fluid" src={require(`../assets/project/raj-ui.png`)} alt="Card image cap" />
+                                </a>
+                            </div>
+
+                            <div className="mb-3 pics animation Frontend React hoverable p-2 border border-primary">
                             <a href="https://raj-developer-book.herokuapp.com/" target="_blank">
                                 <img className="img-fluid" src={require(`../assets/project/developer-book.png`)} alt="Card image cap" />
                                 </a>
@@ -141,6 +147,7 @@ handleFilter =(e, value)=>{
                                 <img className="img-fluid" src={require(`../assets/project/traaexplore-netlify.png`)} alt="Card image cap" />
                                 </a>
                             </div>
+                            
                             
                         </div>
                     </section>
