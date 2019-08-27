@@ -307,8 +307,8 @@ export default class Resume extends Component {
                       <ul className="list-unstyled">
                         <li className="mb-2">
                           <div className="resume-degree font-weight-bold">MCA Distance Education</div>
-                          <div className="resume-degree-org">Sikkim Manipal Universicy</div>
-                          <div className="resume-degree-time">2018 - to</div>
+                          <div className="resume-degree-org">Sikkim Manipal University</div>
+                          <div className="resume-degree-time">2019 - to</div>
                         </li>
                         <li className="mb-2">
                           <div className="resume-degree font-weight-bold">BCA Computer Application</div>
