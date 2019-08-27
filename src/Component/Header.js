@@ -19,7 +19,7 @@ export default class Header extends Component {
           <nav className="navbar navbar-expand-lg navbar-dark scrolling-navbar fixed-top text-sm theme-bg-primary-darken">
             <ul className="social-list list-inline mb-0">
               <li className="list-inline-item mx-2">
-                <a className="text-white " href="#">
+                <a className="text-white" target="_blank" href="!">
                   <svg
                     className="svg-inline--fa fa-twitter fa-w-16 fa-fw"
                     aria-hidden="true"
@@ -39,7 +39,7 @@ export default class Header extends Component {
                 </a>
               </li>
               <li className="list-inline-item mx-2">
-                <a className="text-white" href="#">
+                <a className="text-white" target="_blank" href="https://www.linkedin.com/in/raj-vishwakarma/">
                   <svg
                     className="svg-inline--fa fa-linkedin-in fa-w-14 fa-fw"
                     aria-hidden="true"
@@ -59,7 +59,12 @@ export default class Header extends Component {
                 </a>
               </li>
               <li className="list-inline-item mx-2">
-                <a className="text-white" href="#">
+                <a className="text-white" target="_blank" href="https://www.youtube.com/channel/UCKCB6S-0cVkVPZ2h4n9W4lQ">
+                  <i className="fa fa-youtube"></i>
+                </a>
+              </li>
+              <li className="list-inline-item mx-2">
+                <a className="text-white" target="_blank" href="https://github.com/vishwakarmaraj070">
                   <svg
                     className="svg-inline--fa fa-github-alt fa-w-15 fa-fw"
                     aria-hidden="true"
@@ -79,27 +84,12 @@ export default class Header extends Component {
                 </a>
               </li>
               <li className="list-inline-item mx-2">
-                <a className="text-white" href="#">
-                  <svg
-                    className="svg-inline--fa fa-stack-overflow fa-w-12 fa-fw"
-                    aria-hidden="true"
-                    focusable="false"
-                    data-prefix="fab"
-                    data-icon="stack-overflow"
-                    role="img"
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 384 512"
-                    data-fa-i2svg=""
-                  >
-                    <path
-                      fill="currentColor"
-                      d="M290.7 311L95 269.7 86.8 309l195.7 41zm51-87L188.2 95.7l-25.5 30.8 153.5 128.3zm-31.2 39.7L129.2 179l-16.7 36.5L293.7 300zM262 32l-32 24 119.3 160.3 32-24zm20.5 328h-200v39.7h200zm39.7 80H42.7V320h-40v160h359.5V320h-40z"
-                    />
-                  </svg>
+                <a className="text-white" target="_blank" href="https://www.facebook.com/frontend.adda/">
+                  <i className="fa fa-facebook"></i>
                 </a>
               </li>
               <li className="list-inline-item mx-2">
-                <a className="text-white" href="#">
+                <a className="text-white" target="_blank" href="https://codepen.io/rajvishwakarma">
                   <svg
                     className="svg-inline--fa fa-codepen fa-w-16 fa-fw"
                     aria-hidden="true"

@@ -13,7 +13,7 @@ export default class TalkPage extends Component {
 
     componentDidMount(){
         let {tabImg, tabDate, tabTitle, tabContent} = ''
-        tabImg = $('#talk .single-news.active').find('img').attr('src')
+        tabImg = $('#talk .single-news.active').find('iframe').attr('src')
         tabDate = $('#talk .single-news.active').find('p.date').html()
         tabTitle = $('#talk .single-news.active').find('p.talk-title').html()
         tabContent = $('#talk .single-news.active').find('p.talk-content').html()
@@ -34,7 +34,7 @@ export default class TalkPage extends Component {
         target = $(e.target).parent()
         $('#talk .single-news').removeClass('active')
         $(target).addClass('active')
-        tabImg = $(target).find('img').attr('src')
+        tabImg = $(target).find('iframe').attr('src')
         tabDate = $(target).find('p.date').html()
         tabTitle = $(target).find('p.talk-title').html()
         tabContent = $(target).find('p.talk-content').html()
@@ -63,27 +63,24 @@ export default class TalkPage extends Component {
               Talks 
             </h2>
             <p className="text-center dark-grey-text w-responsive mx-auto mb-4">
-             This section will come soon as like this
+             Talking Section
             </p>
 
             <div className="row">
               <div className="col-lg-6 col-md-12">
                 <div className="single-news mb-lg-0 mb-4 talk-main">
                   <div className="view overlay rounded z-depth-1-half mb-4">
-                    <img
-                      className="img-fluid"
-                      src={this.state.tabImg}
-                      alt="Sample image"
-                    />
+                  <div className="embed-responsive embed-responsive-16by9">
+                      <iframe src={this.state.tabImg} frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                      </div> 
                     <a>
-                      <div className="mask rgba-white-slight" />
                     </a>
                   </div>
 
                   <div className="news-data d-flex justify-content-between">
-                    <a href="#!" className="deep-orange-text">
+                    <a href="https://www.youtube.com/channel/UCKCB6S-0cVkVPZ2h4n9W4lQ" target="_blank" className="deep-orange-text">
                       <h6 className="font-weight-bold">
-                        <i className="fas fa-utensils pr-2" />Raj Talk
+                        <i className="fas fa-utensils pr-2" />Frontend Adda
                       </h6>
                     </a>
                     <p className="font-weight-bold dark-grey-text">
@@ -108,25 +105,23 @@ export default class TalkPage extends Component {
                     this.handleTalk(e)
                 }} className="talk-click"></div>
                   <div className="row">
-                    <div className="col-md-3">
+                    <div className="col-md-4">
                       <div className="view overlay rounded z-depth-1">
-                        <img
-                          className="img-fluid"
-                          src="https://mdbootstrap.com/img/Photos/Others/img%20(29).jpg"
-                          alt="Sample image"
-                        />
+                      <div className="embed-responsive embed-responsive-16by9">
+                      <iframe src="https://www.youtube.com/embed/bjY9fQ7Dz7w" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                      </div>
                         <a>
                           <div className="mask rgba-white-slight" />
                         </a>
                       </div>
                     </div>
 
-                    <div className="col-md-9">
+                    <div className="col-md-8">
                       <p className="font-weight-bold dark-grey-text date mb-1">
-                        26/02/2018
+                        Ui components/ Fontend Adda
                       </p>
                       <p className="talk-title mb-0">
-                            This is the title of 26/02/2018
+                            this is the place where you can see the awesome ui animation frontend design
                       </p>
                       
                       <div className="d-flex justify-content-between">
@@ -152,29 +147,27 @@ export default class TalkPage extends Component {
                     this.handleTalk(e)
                 }} className="talk-click"></div>
                   <div className="row">
-                    <div className="col-md-3">
+                    <div className="col-md-4">
                       <div className="view overlay rounded z-depth-1 ">
-                        <img
-                          className="img-fluid"
-                          src="https://mdbootstrap.com/img/Photos/Horizontal/Food/4-col/img%20(45).jpg"
-                          alt="Sample image"
-                        />
+                      <div className="embed-responsive embed-responsive-16by9">
+                        <iframe src="https://www.youtube.com/embed/6eNRQor7StI" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                      </div>
                         <a>
                           <div className="mask rgba-white-slight" />
                         </a>
                       </div>
                     </div>
 
-                    <div className="col-md-9">
+                    <div className="col-md-8">
                       <p className="font-weight-bold dark-grey-text date mb-1">
-                        25/02/2018
+                        React app / React basic app
                       </p>
                       <p className="talk-title mb-0">
-                            This is the title of 25/02/2018
+                            this is the basic React app help to begginer how is learning React
                       </p>
                       <div className="d-flex justify-content-between">
                         <div className="col-11 text-truncate pl-0">
-                          <p className="dark-grey-text mb-0 talk-content">
+                          <p className="dark-grey-text mb-0 talk-content text-sm">
                             Itaque earum rerum hic tenetur a sapiente delectus
                           Itaque earum rerum hic tenetur a sapiente delectusItaque earum rerum hic tenetur a sapiente delectusp>
                           Itaque earum rerum hic tenetur a sapiente delectus
@@ -193,29 +186,27 @@ export default class TalkPage extends Component {
                     this.handleTalk(e)
                 }} className="talk-click"></div>
                   <div className="row">
-                    <div className="col-md-3">
+                    <div className="col-md-4">
                       <div className="view overlay rounded z-depth-1 ">
-                        <img
-                          className="img-fluid"
-                          src="https://mdbootstrap.com/img/Photos/Others/images/87.jpg"
-                          alt="Sample image"
-                        />
+                      <div className="embed-responsive embed-responsive-16by9">
+                      <iframe src="https://www.youtube.com/embed/jrnJp6VEGmA" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                      </div>
                         <a>
                           <div className="mask rgba-white-slight" />
                         </a>
                       </div>
                     </div>
 
-                    <div className="col-md-9">
+                    <div className="col-md-8">
                       <p className="font-weight-bold dark-grey-text date mb-1">
-                        24/02/2018
+                        This is the MERN app Developer Book
                       </p>
                       <p className="talk-title mb-0">
-                            This is the title of 24/02/2018
+                           Here Developer can create your own Book and mang with edit delete and read
                       </p>
                       <div className="d-flex justify-content-between">
                         <div className="col-11 text-truncate pl-0 ">
-                          <p className="dark-grey-text mb-0 talk-content">
+                          <p className="dark-grey-text mb-0 talk-content text-sm">
                             Soluta nobis est eligendi optio cumque nihil impedit
                             quo minus
                           </p>
@@ -233,29 +224,27 @@ export default class TalkPage extends Component {
                     this.handleTalk(e)
                 }} className="talk-click"></div>
                   <div className="row">
-                    <div className="col-md-3">
+                    <div className="col-md-4">
                       <div className="view overlay rounded z-depth-1 mb-md-0">
-                        <img
-                          className="img-fluid"
-                          src="https://mdbootstrap.com/img/Photos/Others/img%20(27).jpg"
-                          alt="Sample image"
-                        />
+                      <div className="embed-responsive embed-responsive-16by9">
+                        <iframe src="https://www.youtube.com/embed/TDB2gk4zg0Y" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                      </div>
                         <a>
                           <div className="mask rgba-white-slight" />
                         </a>
                       </div>
                     </div>
 
-                    <div className="col-md-9">
+                    <div className="col-md-8">
                       <p className="font-weight-bold dark-grey-text date mb-1">
-                        23/02/2018
+                        Awesome single page design and animation
                       </p>
                       <p className="talk-title mb-0">
-                            This is the title of 23/02/2018
+                          this is the single page awesome layout application
                       </p>
                       <div className="d-flex justify-content-between">
                         <div className="col-11 text-truncate pl-0">
-                          <p className="dark-grey-text mb-0 talk-content">
+                          <p className="dark-grey-text mb-0 talk-content text-sm">
                             Duis aute irure dolor in reprehenderit in voluptate
                           </p>
                         </div>
