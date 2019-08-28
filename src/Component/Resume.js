@@ -4,7 +4,10 @@ export default class Resume extends Component {
     render() {
         return (
             <React.Fragment>
-        <article className="my-5 text-center position-relative">
+              <div className="embed-responsive embed-responsive-16by9 resume-container">
+                <iframe className="embed-responsive-item" src="https://raj-resume.netlify.com/"></iframe>
+              </div>
+        {/* <article className="my-5 text-center position-relative">
           <div className="resume-wrapper-inner mx-auto text-left bg-white shadow-lg">
             <header className="resume-header pt-4 pt-md-0" style={{backgroundColor:"#3582C4"}}>
               <div className="media flex-column flex-md-row">
@@ -352,7 +355,7 @@ export default class Resume extends Component {
               </div>
             </div>
           </div>
-        </article>
+        </article> */}
             </React.Fragment>
         )
     }

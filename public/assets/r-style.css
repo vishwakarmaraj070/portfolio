@@ -565,3 +565,8 @@ section.section-featured-projects .carousel-item img:hover{
 .progress-bar{
   background-color: #3582C4;
 }
+
+.resume-container{
+  min-height: 2450px;
+
+}

@@ -6,19 +6,20 @@ $(document).ready(function () {
         $('.navbar .nav-link.about').removeClass('active')
     }
     let {width, left}= ''
-    function slideLine(){
-        width = $('.navbar .nav-link.active').outerWidth()
-        let pos = $('.navbar .nav-link.active').position()
-        left = pos.left
-        $('span#slide-line').css({width,left})
-    }
-    slideLine()
+    width = $('.navbar .nav-link.active').outerWidth()
+    let pos = $('.navbar .nav-link.active').position()
+    left = pos.left
+    $('span#slide-line').css({width, left: left + 25})
+   
     $('.navbar .nav-link').hover(function () {
         width = this.clientWidth;
         left = this.offsetLeft
         $('span#slide-line').css({width,left})
         }, function () {
-            slideLine()
+            width = $('.navbar .nav-link.active').outerWidth()
+            let pos = $('.navbar .nav-link.active').position()
+            left = pos.left
+            $('span#slide-line').css({width, left})
         }
     );
 
